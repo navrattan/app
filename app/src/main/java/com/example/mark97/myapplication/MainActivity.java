@@ -16,7 +16,7 @@ MainActivity extends AppCompatActivity {
         Log.i("HEADING","STARTED LEARNING ANDROID");
         Log.d("msg", "The onCreate() event");
     }
-     protected void onStart()
+     protected void onStart(Bundle savedInstanceState)
      {
          super.onStart();
          Log.i("HEADING","STARTED LEARNING ANDROID");
